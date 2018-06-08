@@ -9,12 +9,12 @@ class Matrix
 {
 public:
     Matrix (int x = 3, int y = 3);
-    Matrix (Matrix &);// конструктор
-    ~Matrix();//  деструктор
-    int Get_Width() ;// получение ширины
-    int Get_Length();// получение длины
+    Matrix (Matrix &);
+    ~Matrix();
+    int Get_Width() ;
+    int Get_Length();
     int ** Get_Array();
-    void transpose();// функция транспорирования
+    void transpose();
 
     Matrix & operator = (const Matrix & );
     Matrix & operator *=(const int & );
