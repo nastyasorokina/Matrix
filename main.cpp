@@ -2,7 +2,7 @@
 
 int main()
 {
-    Matrix matrix1(3, 3), matrix2(3, 3), matrix3;
+    Matrix matrix1, matrix2, matrix3;
 
     ifstream input("input.txt");
     input >> matrix1;
